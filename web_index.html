@@ -1,0 +1,28 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Number Guessing Game</h1>
+    <p>I'm thinking of a number between <span id="min">1</span> and <span id="max">100</span>.</p>
+
+    <div class="controls">
+      <input id="guessInput" type="number" placeholder="Enter your guess" />
+      <button id="guessBtn">Guess</button>
+      <button id="restartBtn">Restart</button>
+    </div>
+
+    <p id="message" aria-live="polite"></p>
+    <p>Attempts: <span id="attempts">0</span></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
